@@ -109,7 +109,7 @@ $mail_to_send_to = "dstarite@gmail.com";
 $from_email = "dstariteTechnology@dstarite.com";
 $sendflag = $_REQUEST['sendflag'];    
 $name=$_REQUEST['name'];
-if ( $sendflag == "Send Message" )
+if ( $sendflag == "SendMessage" )
         {
                 $subject= "subject";
                 $email = $_REQUEST['email'] ;
