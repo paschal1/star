@@ -103,10 +103,16 @@
 //         }
 //     }
 // }
-
+// Import PHPMailer classes into the global namespace 
+use PHPMailer\PHPMailer\PHPMailer; 
+use PHPMailer\PHPMailer\Exception; 
+ 
+require '../assets/vendor/PHPMailer-master/src/Exception.php'; 
+require '../assets/vendor/PHPMailer-master/src/PHPMailer.php'; 
+require '../assets/vendor/PHPMailer-master/src/SMTP.php'; 
 
 $mail_to_send_to = "dstarite@gmail.com";
-$from_email = "dstariteTechnology@dstarite.com";
+$from_email = "dstaritetechnology@dstarite.com";
 $sendflag = $_REQUEST['sendflag'];    
 $name=$_REQUEST['name'];
 if ( $sendflag == "SendMessage" )
