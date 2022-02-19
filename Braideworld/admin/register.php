@@ -13,7 +13,7 @@
                             <!-- Logo-->
                             <div class="card-header  text-center ">
                                 <a href="index.php">
-                                    <span>  <img src="assets/images/xtragist.svg" alt="" height="100"  width = "100"class=""></span>
+                                    <span>  <img src="assets/images/logo.svg" alt="" height="100"  width = "100"class=""></span>
                                 </a>
                             </div>
                             

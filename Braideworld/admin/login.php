@@ -62,6 +62,7 @@
                                             <div class="col-xs-12">
                                                <input type="submit" class="btn btn-success btn-sm" name="login" value="login">
                                             </div>
+                                            <a href="register.php">Register here<a>
                                         </div>
 
 

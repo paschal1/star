@@ -11,7 +11,7 @@
             <!-- LOGO -->
             <a href="index.php" class="logo text-center logo-light">
                 <span class="logo-lg">
-                    <img src="assets/images/xtragist.svg" alt="" height="40" class="bg-white p-1">
+                    <img src="assets/images/logo.svg" alt="" height="40" class="bg-white p-1">
                 </span>
                 <span class="logo-sm">
                     <img src="assets/images/logo_sm.png" alt="" height="16">
