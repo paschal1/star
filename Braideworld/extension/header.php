@@ -39,7 +39,7 @@ $comments_obj = new Comment($connection);
 		<!-- Magnific Popup -->
 		<link rel="stylesheet" href="scripts/magnific-popup/dist/magnific-popup.css">
 		<link rel="stylesheet" href="scripts/sweetalert/dist/sweetalert.css">
-		 <link href="images/xtragist.png" rel="icon" width="200">
+		 <link href="images/logo.svg" rel="icon" width="200">
 		<!-- Custom style -->
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/skins/all.css">
@@ -156,8 +156,8 @@ $comments_obj = new Comment($connection);
 					<div id="menu-list">
 						<ul class="nav-list">
 							<li class="for-tablet nav-title"><a>Menu</a></li>
-							<li class="for-tablet"><a href="login.html">Login</a></li>
-							<li class="for-tablet"><a href="register.html">Register</a></li>
+							<li class="for-tablet"><a href="admin/nw-admin.php">Login</a></li>
+							<li class="for-tablet"><a href="admin/nw-admin.php">Register</a></li>
 							<!-- <li><a href="category.html">Home</a></li> -->
 							<li><a href="index.php">Home</a></li>
 							<?php $cat_obj->getallcategory(); ?>

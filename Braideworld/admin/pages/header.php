@@ -28,13 +28,13 @@ $post_obj = new Post($connection, $user);
 <!-- Mirrored from coderthemes.com/hyper/saas/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 15 Aug 2021 23:23:46 GMT -->
 <head>
         <meta charset="utf-8" />
-        <title>Xtragist</title>
+        <title>dStarite</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- <meta content="A fully featured admin thee which can be used to build CRM, CMS, etc." name="description" /> -->
-        <meta content="Xtragist" name="author" />
+        <meta content="dStarite" name="author" />
         <!-- App favicon -->
         <!-- <link rel="shortcut icon" href="assets/images/favicon.ico"> -->
-        <link rel="shortcut icon" href="assets/images/xtragist.svg" type="image/jpg">
+        <link rel="shortcut icon" href="assets/images/logo.svg" type="image/jpg">
 
         <!-- third party css -->
         <link href="assets/css/vendor/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />

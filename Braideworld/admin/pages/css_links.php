@@ -5,8 +5,8 @@
 <!-- Mirrored from coderthemes.com/hyper/saas/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 15 Aug 2021 23:23:46 GMT -->
 <head>
         <meta charset="utf-8" />
-        <title>Xtragist</title>
-        <link rel="shortcut icon" href="assets/images/xtragist.svg" type="image/jpg">
+        <title>dStarite</title>
+        <link rel="shortcut icon" href="assets/images/logo.svg" type="image/jpg">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
         <meta content="Coderthemes" name="author" />
