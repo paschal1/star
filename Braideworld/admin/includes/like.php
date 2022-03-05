@@ -1,5 +1,5 @@
 <?php 
-$conn = mysqli_connect('localhost','root','','admin');
+$conn = mysqli_connect('localhost','eseltwgh_dstarite','paschal@081','eseltwgh_dstarite');
 if(isset($_GET['like_id'])){
 	if(isset($_SESSION['subscriber'])){
 		$user = $_SESSION['subscriber'];
