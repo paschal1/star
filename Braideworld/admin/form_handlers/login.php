@@ -1,6 +1,6 @@
 <?php 
 
-$mysqli = new mysqli("localhost","root","","admin") or die(mysqli_error($mysqli));
+$mysqli = new mysqli("localhost","eseltwgh_dstarite","paschal@081","eseltwgh_dstarite") or die(mysqli_error($mysqli));
 $error = [];
 error_reporting(0);
 session_start(); 
