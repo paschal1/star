@@ -141,15 +141,15 @@
 				  $added_by = $row['added_by'];
 				  $title = $row['title'];
 				  $post_category = $row['post_category'];
-				  $str .= "<article class='article-mini ' style='margin-bottom:20px;'>
+				  $str .= "<article class='article-mini ' style='margin-bottom:0px;'>
 				  <div class='inner'>
 					  <figure>
 						  <a href='singlepost.php?post_id=$id&cat_r=$category'>
-							  <img src='admin/$image' >
+							  <img class='post-img' style='width:70px;' src='admin/$image' >
 						  </a>
 					  </figure>
 					  <div class='padding'>
-						  <h1><a href='singlepost.php?post_id=$id&cat_r=$category'>$cnt_title</a></h1>
+						  <span class='pst-content'><a href='singlepost.php?post_id=$id&cat_r=$category'>$cnt_title</a></span>
 						  <div class='detail'>
 							  <div class='category'><a href='category.php?c_id=$post_cat_id small'><small>$category</small></a></div>
 							  <div class='time small'><small class='small text-secondary'>$date_added</small></div>
@@ -222,7 +222,7 @@
 	 		$num_comments = $row['num_comments'];
 	 		$post_category = $row['post_category'];
 
-	 		$str .= "
+	 		$str .= "<li>
 			 <article class='article col-md-12'>
 			 <div class='inner'>
 				 <figure>
@@ -246,7 +246,7 @@
 					 </footer>
 				 </div>
 			 </div>
-		 </article>";
+		 </article></li>";
 	 	}
 	 	echo $str;
 	 }
@@ -793,7 +793,7 @@ public function getmostpopular()
 						</a>
 					</figure>
 					<div class='padding'>
-						<div class='detail'>
+						<div class='pst-content'>
 								<div class='time small' style='font-size:7px;'>$date</div>
 								<div class='category'><a href='category.php?c_id=$post_cat_id'>$category</a></div>
 						</div>
@@ -830,31 +830,28 @@ public function getmostpopular()
 		$category = $row['post_category'];
 		$post_cat_id = $row['post_cat_id'];
 
-				$str .= "<article class='col-md-12 article-list box-shadow bg-white padding-0 mx-auto' style='margin-bottom:65px;'>
-				<div class='inner'>
+				$str .= "
+				<div class='recent-post'>
 					<figure>
 						<a href='singlepost.php?post_id=$id&cat_r=$category'>
-							<img src='admin/$image' class='padding-0' >
+							<img  class='post-img' src='admin/$image' class='padding-0' >
 						</a>
 					</figure>
-					<div class='details mx-auto padding'  style='margin-top:10px;'>
+					<div class='recent-single-post'>
 						<div class='detail mt-5'>
 							<div class='category'>
 								<a href='category.php?c_id=$post_cat_id'>$category</a>
 							</div>
 							<div class='time'>$date</div>
 						</div>
-						<h1><a href='singlepost.php?post_id=$id&cat_r=$category'>$title</a></h1>
-						<p>
+						<span class='pst-content'><a href='singlepost.php?post_id=$id&cat_r=$category'>$title</a></span>
+						<p class='pst-content'>
 						$content 
 						</p>
-					   
-						 <!-- <footer>
-							<a href='#' class='love'>Gabriel Godsent</a>
-						</footer>  -->
+
 					</div>
 				</div>
-			</article>";
+			";
 			}
 			echo $str;
 		}
