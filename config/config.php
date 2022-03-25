@@ -2,4 +2,4 @@
  ob_start();
  //session_start();
  date_default_timezone_set("Africa/Lagos");
- $connection = new mysqli("localhost","root","","d_starite") or die(mysqli_connect_error($connection));
+ $connection = new mysqli("localhost","eseltwgh_dstarite","paschal@081","eseltwgh_dstarite") or die(mysqli_connect_error($connection));

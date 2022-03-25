@@ -1,6 +1,6 @@
 <?php
 
-$mysqli = new mysqli("localhost", "root", "" , "d_starite") or die(mysqli_error($mysqli));
+$mysqli = new mysqli("localhost", "eseltwgh_dstarite", "paschal@081" , "eseltwgh_dstarite") or die(mysqli_error($mysqli));
 // error_reporting(0);
 $error = [];
 

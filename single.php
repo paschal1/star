@@ -8,9 +8,9 @@ include('category/category.php');
 
 // Update the details below with your MySQL details
 $DATABASE_HOST = 'localhost';
-$DATABASE_USER = 'root';
-$DATABASE_PASS = '';
-$DATABASE_NAME = 'd_starite';
+$DATABASE_USER = 'eseltwgh_dstarite';
+$DATABASE_PASS = 'paschal@081';
+$DATABASE_NAME = 'eseltwgh_dstarite';
 try {
     $pdo = new PDO('mysql:host=' . $DATABASE_HOST . ';dbname=' . $DATABASE_NAME . ';charset=utf8', $DATABASE_USER, $DATABASE_PASS);
 } catch (PDOException $exception) {
