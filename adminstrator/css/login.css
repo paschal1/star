@@ -1,0 +1,49 @@
+body{
+ padding-top:5%; 
+font-family: sans-serif;
+}
+*{
+    font-family: sans-serif;
+    /* color: red; */
+}
+.form-login {
+max-width:350px;
+padding:40px;
+border-radius:30px;
+background:#e9e9e9;
+margin:0 auto;
+}
+
+.form-login .form-login-heading {
+color:#0e4372;
+text-align:center;
+font-family: tahoma;
+}
+.form-login .form-control {
+position:relative;
+height: auto;
+box-sizing:border-box;
+padding:10px;
+font-size:16px;
+}
+
+.form-login .form-control::placeholder{
+   font-family: tahoma;
+   font-size: 15px;
+}
+
+.form-login input[type="text"] {
+margin-bottom:5px;
+border-bottom-right-radius: 0;
+border-bottom-left-radius: 0;
+}
+
+.form-login input[type="password"]::-webkit-input-placeholder {
+margin-bottom:10px;
+border-top-left-radius: 0;
+border-top-right-radius: 0;
+}
+
+
+
+
