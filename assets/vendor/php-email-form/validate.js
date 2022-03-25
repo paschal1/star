@@ -1,7 +1,7 @@
 /**
 * PHP Email Form Validation - v3.1
-* URL: https://bootstrapmade.com/php-email-form/
-* Author: BootstrapMade.com
+* URL: https://dstarite.com/php-email-form/
+* Author: paschal N.com
 */
 (function () {
   "use strict";

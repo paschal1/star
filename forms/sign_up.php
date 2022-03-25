@@ -1,68 +1,92 @@
+<?php
+session_start();
+include("../adminstrator/includes/connection.php");
+
+?>
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Admin Register</title>
 
-  <title>dStarite Technology Group</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+<link rel="stylesheet" href="../adminstrator/css/login.css" >
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon" width="200">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+<link rel="stylesheet" href="../../css/bootstrap.min.css" >
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link
-  rel="stylesheet"
-  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
-/>
-
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-   * Template Name: D-Starite - v4.3.0
-  * Template URL: https://dstarite.com/D-Starite-tech-business-template/
-  * Author: dstarite.com
-  * License: https://dstarite.com/license/
-  ======================================================== -->
 </head>
-
 <body>
-    <div class="form contact-form">
-                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                  <div class="form-group">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                  </div>
-                  <div class="form-group mt-3">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                  </div>
-                  <div class="form-group mt-3">
-                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                  </div>
-                  <div class="form-group mt-3">
-                    <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                  </div>
-                  <div class="my-3">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your message has been sent. Thank you!</div>
-                  </div>
-                  <div class="text-center"><button type="submit">Send Message</button></div>
-                </form>
-              </div>
-              </body>
 
+
+<div class="container col-lg-12 col-md-6 col-6"><!-- Container Starts -->
+<form class="form-login" action="" method="post"><!--- form-login Starts -->
+
+<h2 class="form-login-heading">User Registration</h2>
+<?php
+include ("register.php");
+foreach($error as $errors){
+    if(isset($errors) && (count($error)>0)){
+     echo "<div class='alert alert-danger' role='alert'>
+    <strong>$errors</strong>
+    </div>"; 
+    }
+}
+?>
+<label class="sr-only">Email address</label>
+
+<input type="text" class="form-control" name="name" placeholder="Name" required >
+
+<label class="sr-only">Password</label> <br>
+
+<input type="email" class="form-control" name="email" placeholder="Email" required>
+
+<label class="sr-only">Password</label> <br>
+
+<input type="password" class="form-control" name="password" id = "password" onpaste = "return false" placeholder="password" required> 
+
+<input type="checkbox" class = "" onclick="myFunction()" style="margin-top:10px; margin-bottom:13px;left:0; margin-left:7px;"> &nbsp;Show Password
+<br>
+
+<label class="sr-only">Password</label> 
+
+<input type="password" class="form-control" oncut = "return flase" oncopy = "return false" onpaste = "return false" name="c-password" placeholder="Confirm-password" required> <br>
+
+<button class="btn  btn-primary btn-lg btn-block mb-5" type="submit" name="register">Register</button> <br>
+
+
+
+</form><!--- form-login Ends -->
+</div><!-- Container Ends -->
+
+
+
+
+</body>
 </html>
+<?php
+// if(isset($_POST['admin_login'])){
+
+// $admin_email = mysqli_real_escape_string($con,$_POST['admin_email']);
+
+// $admin_pass = mysqli_real_escape_string($con,$_POST['admin_pass']);
+
+// $encrypt = md5($admin_pass);
+
+// $get_admin = "select * from admins where admin_email='$admin_email' AND admin_pass='$admin_pass'";
+
+// $run_admin = mysqli_query($con,$get_admin);
+
+// $count = mysqli_num_rows($run_admin);
+
+// if($count==1){
+// $_SESSION['admin_email']=$admin_email;
+// echo "<script>alert('You are Logged in into Admin Panel')</script>";
+// echo "<script>window.open('index.php?dashboard','_self')</script>";
+
+// }else{
+// echo "<script>alert('Email or Password is Wrong ')</script>";
+// }
+
+// } 
+
+?>
+

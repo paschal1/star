@@ -104,32 +104,71 @@
 //     }
 // }
 // Import PHPMailer classes into the global namespace 
-use PHPMailer\PHPMailer\PHPMailer; 
-use PHPMailer\PHPMailer\Exception; 
+// use PHPMailer\PHPMailer\PHPMailer; 
+// use PHPMailer\PHPMailer\Exception; 
  
-require '../assets/vendor/PHPMailer-master/src/Exception.php'; 
-require '../assets/vendor/PHPMailer-master/src/PHPMailer.php'; 
-require '../assets/vendor/PHPMailer-master/src/SMTP.php'; 
+// require '../assets/vendor/PHPMailer-master/src/Exception.php'; 
+// require '../assets/vendor/PHPMailer-master/src/PHPMailer.php'; 
+// require '../assets/vendor/PHPMailer-master/src/SMTP.php'; 
 
-$mail_to_send_to = "dstarite@gmail.com";
-$from_email = "dstaritetechnology@dstarite.com";
-$sendflag = $_REQUEST['sendflag'];    
-$name=$_REQUEST['name'];
-if ( $sendflag == "SendMessage" )
-        {
-                $subject= "subject";
-                $email = $_REQUEST['email'] ;
-                $message= "\r\n" . "Name: $name" . "\r\n"; //get recipient name in contact form
-                $message = $message.$_REQUEST['message'] . "\r\n" ;//add message from the contact form to existing message(name of the client)
-                $headers = "From: $from_email" . "\r\n" . "Reply-To: $email"  ;
-                $a = mail( $mail_to_send_to, $subject, $message, $headers );
-                if ($a)
-                {
-                     print("Message was sent, you can send another one");
-                } else {
-                     print("Message wasn't sent, please check that you have changed emails in the bottom");
-                }
-        }
-        ?>
+// $mail_to_send_to = "dstarite@gmail.com";
+// $from_email = "dstaritetechnology@dstarite.com";
+// $sendflag = $_REQUEST['sendflag'];    
+// $name=$_REQUEST['name'];
+// if ( $sendflag == "SendMessage" )
+//         {
+//                 $subject= "subject";
+//                 $email = $_REQUEST['email'] ;
+//                 $message= "\r\n" . "Name: $name" . "\r\n"; //get recipient name in contact form
+//                 $message = $message.$_REQUEST['message'] . "\r\n" ;//add message from the contact form to existing message(name of the client)
+//                 $headers = "From: $from_email" . "\r\n" . "Reply-To: $email"  ;
+//                 $a = mail( $mail_to_send_to, $subject, $message, $headers );
+//                 if ($a)
+//                 {
+//                      print("Message was sent, you can send another one");
+//                 } else {
+//                      print("Message wasn't sent, please check that you have changed emails in the bottom");
+//                 }
+//         }
 
-?>
+$mysqli = new mysqli("localhost", "root", "" , "d_starite") or die(mysqli_error($mysqli));
+// error_reporting(0);
+$error = [];
+
+if(isset($_POST['submit'])){
+     $name = $_POST['name'];
+    $email = $_POST['email'];
+    $subject = $_POST['subject'];
+    $message = $_POST['message'];
+    $sql = mysqli_query($mysqli, "SELECT * FROM contact_us WHERE email = '$email'");
+    $row = mysqli_fetch_array($sql);
+    if(empty($name) && (empty($email) && (empty($subject) && (empty($message))))){
+        array_push($error, "Please fill in blank fields");
+    }elseif (empty($name)){
+        array_push($error, "please fill your name");
+    }elseif(mysqli_num_rows($sql) != 0){
+        array_push($error, "email already exist");
+    }elseif(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        array_push($error, "email is invalid");
+    }
+     if(empty($error)){
+   //echo"arrived";
+        $name = ($name);
+        $email = ($email);
+  
+        $query = "INSERT INTO contact_us (name, email, subject, message) 
+                VALUES ('$name','$email','$subject','$message')";
+
+        $result = mysqli_query($mysqli,$query);
+        
+        //$query = mysqli_query($mysqli, "INSERT INTO contact_us VALUES('$name','$email','$subject','$message');");
+        if($result){
+       //echo "success";
+      unset($_POST['submit']);
+         header("location: ../index.php");
+    }else{
+      echo "mba";
+    }
+    
+    } 
+}

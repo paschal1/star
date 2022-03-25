@@ -2453,3 +2453,16 @@ span.email-notes {
     padding: 0;
   }
 }
+
+.comment .ready-btn, .edit-btn {font-size:0.8em;}
+.comment-details{ width:91.5%; float:left;}
+.comment-details p{margin-bottom:0px;}
+.comment .comment-img{ width:35px; height:35px; margin-right:5px; float:left; border-radius:50%;}
+
+/*replies*/
+.reply {margin-left:30px;}
+.reply_form{
+  margin-left:40px;
+  display:none;
+}
+#comment_form {margin-top:10px;}
