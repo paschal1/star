@@ -588,6 +588,10 @@ fetch("single.php?page_id=" + comments_page_id).then(response => response.text()
 	});
 });
 </script>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-6223c684a3f77aec"></script>
+
 </body>
 
 </html>
