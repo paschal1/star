@@ -34,7 +34,8 @@ include('category/category.php');
 
   <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9102079570959654"
+     crossorigin="anonymous"></script>
 </head>
 
 <body>

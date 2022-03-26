@@ -201,7 +201,8 @@ if (isset($_GET['post_id'])) {
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9102079570959654"
+     crossorigin="anonymous"></script>
   <!-- =======================================================
   * Template Name: eBusiness - v4.3.0
   * Template URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
