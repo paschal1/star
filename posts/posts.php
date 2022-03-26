@@ -233,8 +233,8 @@ function get_blogs(){
       $uniqid = '$BpoUSLWCMdNCuzoJNHUjlByvvemBcG';
       $str  .=   "<div class='col-md-12 col-sm-12 col-xs-12'>
   <div class='single-blog'>
-    <div class='single-blog-img'>
-      <a href='single.php?post_id=$uniqid$id#10%!9e13e30346050428880e5b1156758e243%32a@2103q'>
+    <div class='single-blog-$uniqid$id#10%!9e13e30346050428880e5b1156758e243%32a@2103qimg'>
+      <a href='single.php?post_id='>
         <img src='adminstrator/$img' alt=''>
       </a>
     </div>

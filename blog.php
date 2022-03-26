@@ -130,7 +130,8 @@ include('category/category.php');
   $str = "";
 
   while ($row = mysqli_fetch_array($query)){
-      $id = $row['id'];
+     $id = $row['id'];
+      $uniqid = uniqid($id);
     $img = $row['post_image'];
     $num_comments = $row['num_comments'];
      $date_added = $row['date_added'];
@@ -143,12 +144,12 @@ include('category/category.php');
      
       $str  .=   " <div class='recent-single-post'>
       <div class='post-img'>
-        <a href='#'>
+        <a href='single-blog-$uniqid$id#10%!9e13e30346050428880e5b1156758e243%32a@2103qimg'>
           <img src='adminstrator/$img' alt=''>
         </a>
       </div>
       <div class='pst-content'>
-        <p><a href='#'> $content</a></p>
+        <p><a href='single-blog-$uniqid$id#10%!9e13e30346050428880e5b1156758e243%32a@2103qimg'> $content</a></p>
       </div>
     </div>";
   }
