@@ -144,12 +144,12 @@ include('category/category.php');
      
       $str  .=   " <div class='recent-single-post'>
       <div class='post-img'>
-        <a href='single-blog-$uniqid$id#10%!9e13e30346050428880e5b1156758e243%32a@2103qimg'>
+        <a href='single.php?post_id=$uniqid$id#10%!9e13e30346050428880e5b1156758e243%32a@2103qimg'>
           <img src='adminstrator/$img' alt=''>
         </a>
       </div>
       <div class='pst-content'>
-        <p><a href='single-blog-$uniqid$id#10%!9e13e30346050428880e5b1156758e243%32a@2103qimg'> $content</a></p>
+        <p><a href='single.php?post_id=$uniqid$id#10%!9e13e30346050428880e5b1156758e243%32a@2103qimg'> $content</a></p>
       </div>
     </div>";
   }
