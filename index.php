@@ -80,7 +80,7 @@ include('posts/posts.php')
               <li><a href="#">GMP (Aluminium)</a></li>
               <li class="dropdown"><a href="#"><span>Website Management</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#">SEO</a></li>
+                  <li><a href="comment.php">SEO</a></li>
                   <li><a href="#">SEM</a></li>
                   <li><a href="#">Web Design</a></li>
                   <li><a href="#">Hosting</a></li>
