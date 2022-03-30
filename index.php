@@ -82,7 +82,7 @@ include('posts/posts.php')
                 <ul>
                   <li><a href="comment.php">SEO</a></li>
                   <li><a href="#">SEM</a></li>
-                  <li><a href="#">Web Design</a></li>
+                  <li><a href="adminstrator/geoplugin.class/index.php">Web Design</a></li>
                   <li><a href="#">Hosting</a></li>
                   <li><a href="#">Tech Consultant</a></li>
                 </ul>
