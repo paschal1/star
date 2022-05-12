@@ -75,21 +75,21 @@ include('posts/posts.php')
           <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <li><a href="blog.php">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>What we Do</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#services"><span>What we Do</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">GMP (Aluminium)</a></li>
-              <li class="dropdown"><a href="#"><span>Website Management</span> <i class="bi bi-chevron-right"></i></a>
+              <li class="dropdown"><a href="#services"><span>Website Management</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="comment.php">SEO</a></li>
-                  <li><a href="#">SEM</a></li>
+                  <li><a href="#services">SEM</a></li>
                   <li><a href="adminstrator/geoplugin.class/index.php">Web Design</a></li>
-                  <li><a href="#">Hosting</a></li>
-                  <li><a href="#">Tech Consultant</a></li>
+                  <li><a href="#services">Hosting</a></li>
+                  <li><a href="#services">Tech Consultant</a></li>
                 </ul>
               </li>
-              <li><a href="#">Mobile App</a></li>
-              <li><a href="#">Web App</a></li>
-              <li><a href="#">Data Analysis</a></li>
+              <li><a href="#services">Mobile App</a></li>
+              <li><a href="#services">Web App</a></li>
+              <li><a href="#services">Data Analysis</a></li>
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
@@ -170,7 +170,7 @@ include('posts/posts.php')
           <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="well-left">
               <div class="single-well">
-                <a href="#">
+                <a href="#hero">
                   <img src="assets/img/about/1.jpg" alt="">
                 </a>
               </div>
@@ -180,7 +180,7 @@ include('posts/posts.php')
           <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="well-middle">
               <div class="single-well">
-                <a href="#">
+                <a href="#hero">
                   <h4 class="sec-head">project Maintenance</h4>
                 </a>
                 <p>
@@ -227,7 +227,7 @@ include('posts/posts.php')
             <div class="about-move">
               <div class="services-details">
                 <div class="single-services">
-                  <a class="services-icon" href="#">
+                  <a class="services-icon" href="#services">
                     <i class="bi bi-briefcase"></i>
                   </a>
                   <h4>Expert Coder</h4>
@@ -243,7 +243,7 @@ include('posts/posts.php')
             <div class="about-move">
               <div class="services-details">
                 <div class="single-services">
-                  <a class="services-icon" href="#">
+                  <a class="services-icon" href="#hero">
                     <i class="bi bi-card-checklist"></i>
                   </a>
                   <h4>Creative Designer</h4>
@@ -260,7 +260,7 @@ include('posts/posts.php')
             <div class=" about-move">
               <div class="services-details">
                 <div class="single-services">
-                  <a class="services-icon" href="#">
+                  <a class="services-icon" href="#hero">
                     <i class="bi bi-bar-chart"></i>
                   </a>
                   <h4>Wordpress Developer</h4>
@@ -277,7 +277,7 @@ include('posts/posts.php')
             <div class=" about-move">
               <div class="services-details">
                 <div class="single-services">
-                  <a class="services-icon" href="#">
+                  <a class="services-icon" href="#hero">
                     <i class="bi bi-binoculars"></i>
                   </a>
                   <h4>Social Marketer </h4>
@@ -295,7 +295,7 @@ include('posts/posts.php')
             <div class=" about-move">
               <div class="services-details">
                 <div class="single-services">
-                  <a class="services-icon" href="#">
+                  <a class="services-icon" href="#services">
                     <i class="bi bi-brightness-high"></i>
                   </a>
                   <h4>Seo and Web Developer Expart</h4>
@@ -313,7 +313,7 @@ include('posts/posts.php')
             <div class=" about-move">
               <div class="services-details">
                 <div class="single-services">
-                  <a class="services-icon" href="#">
+                  <a class="services-icon" href="#contact">
                     <i class="bi bi-calendar4-week"></i>
                   </a>
                   <h4>24/7 Support</h4>
@@ -343,23 +343,23 @@ include('posts/posts.php')
           <div class="col-md-3 col-sm-3 col-xs-12">
             <div class="single-team-member">
               <div class="team-img">
-                <a href="#">
+                <a href="http://twitter.com/paschalnwokeocha">
                   <img src="assets/img/team/1.jpg" alt="">
                 </a>
                 <div class="team-social-icon text-center">
                   <ul>
                     <li>
-                      <a href="#">
+                      <a href="http://facebook.com/pope.paschalnwokeocha">
                         <i class="bi bi-facebook"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="http://twitter.com/paschalnwokeocha">
                         <i class="bi bi-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="http://instagram.com/paschalnwokeocha">
                         <i class="bi bi-instagram"></i>
                       </a>
                     </li>
@@ -377,23 +377,23 @@ include('posts/posts.php')
           <div class="col-md-3 col-sm-3 col-xs-12">
             <div class="single-team-member">
               <div class="team-img">
-                <a href="#">
+                <a href="http://twitter.com/paschalnwokeocha">
                   <img src="assets/img/team/2.jpg" alt="">
                 </a>
                 <div class="team-social-icon text-center">
                   <ul>
                     <li>
-                      <a href="#">
+                      <a href="http://twitter.com/godsentgabriel">
                         <i class="bi bi-facebook"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="http://twitter.com/godsentgabriel">
                         <i class="bi bi-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="http://twitter.com/godsentgabriel">
                         <i class="bi bi-instagram"></i>
                       </a>
                     </li>
@@ -410,23 +410,23 @@ include('posts/posts.php')
           <div class="col-md-3 col-sm-3 col-xs-12">
             <div class="single-team-member">
               <div class="team-img">
-                <a href="#">
+                <a href="http://twitter.com/paschalnwokeocha">
                   <img src="assets/img/team/3.jpg" alt="">
                 </a>
                 <div class="team-social-icon text-center">
                   <ul>
                     <li>
-                      <a href="#">
+                      <a href="http://facebook.com/hamiltontobins">
                         <i class="bi bi-facebook"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="http://twitter.com/hamiltontobins">
                         <i class="bi bi-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="http://instagram.com/paschalnwokeocha">
                         <i class="bi bi-instagram"></i>
                       </a>
                     </li>
@@ -443,23 +443,23 @@ include('posts/posts.php')
           <div class="col-md-3 col-sm-3 col-xs-12">
             <div class="single-team-member">
               <div class="team-img">
-                <a href="#">
+                <a href="http://twitter.com/paschalnwokeocha">
                   <img src="assets/img/team/4.jpg" alt="">
                 </a>
                 <div class="team-social-icon text-center">
                   <ul>
                     <li>
-                      <a href="#">
+                      <a href="http://facebook.com/pope.paschalnwokeocha">
                         <i class="bi bi-facebook"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="http://twitter.com/paschalnwokeocha">
                         <i class="bi bi-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="http://instagram.com/pope.paschalnwokeocha">
                         <i class="bi bi-instagram"></i>
                       </a>
                     </li>
@@ -521,7 +521,7 @@ include('posts/posts.php')
           <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app portfolio-item">
             <div class="single-awesome-project">
               <div class="awesome-img">
-                <a href="#"><img src="assets/img/portfolio/1.jpg" alt="" /></a>
+                <a href="https://www.linkedin.com/in/starttechnology"><img src="assets/img/portfolio/1.jpg" alt="" /></a>
                 <div class="add-actions text-center">
                   <div class="project-dec">
                     <a class="portfolio-lightbox" data-gallery="myGallery" href="assets/img/portfolio/1.jpg">
@@ -539,7 +539,7 @@ include('posts/posts.php')
           <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
             <div class="single-awesome-project">
               <div class="awesome-img">
-                <a href="#"><img src="assets/img/portfolio/2.jpg" alt="" /></a>
+                <a href="https://www.linkedin.com/in/starttechnology"><img src="assets/img/portfolio/2.jpg" alt="" /></a>
                 <div class="add-actions text-center">
                   <div class="project-dec">
                     <a class="portfolio-lightbox" data-gallery="myGallery" href="assets/img/portfolio/2.jpg">
@@ -557,7 +557,7 @@ include('posts/posts.php')
           <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-card">
             <div class="single-awesome-project">
               <div class="awesome-img">
-                <a href="#"><img src="assets/img/portfolio/3.jpg" alt="" /></a>
+                <a href="https://www.linkedin.com/in/starttechnology"><img src="assets/img/portfolio/3.jpg" alt="" /></a>
                 <div class="add-actions text-center">
                   <div class="project-dec">
                     <a class="portfolio-lightbox" data-gallery="myGallery" href="assets/img/portfolio/3.jpg">
@@ -575,7 +575,7 @@ include('posts/posts.php')
           <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
             <div class="single-awesome-project">
               <div class="awesome-img">
-                <a href="#"><img src="assets/img/portfolio/4.jpg" alt="" /></a>
+                <a href="https://www.linkedin.com/in/starttechnology"><img src="assets/img/portfolio/4.jpg" alt="" /></a>
                 <div class="add-actions text-center">
                   <div class="project-dec">
                     <a class="portfolio-lightbox" data-gallery="myGallery" href="assets/img/portfolio/4.jpg">
@@ -593,7 +593,7 @@ include('posts/posts.php')
           <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
             <div class="single-awesome-project">
               <div class="awesome-img">
-                <a href="#"><img src="assets/img/portfolio/5.jpg" alt="" /></a>
+                <a href="https://www.linkedin.com/in/starttechnology"><img src="assets/img/portfolio/5.jpg" alt="" /></a>
                 <div class="add-actions text-center text-center">
                   <div class="project-dec">
                     <a class="portfolio-lightbox" data-gallery="myGallery" href="assets/img/portfolio/5.jpg">
@@ -611,7 +611,7 @@ include('posts/posts.php')
           <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
             <div class="single-awesome-project">
               <div class="awesome-img">
-                <a href="#"><img src="assets/img/portfolio/6.jpg" alt="" /></a>
+                <a href="https://www.linkedin.com/in/starttechnology"><img src="assets/img/portfolio/6.jpg" alt="" /></a>
                 <div class="add-actions text-center">
                   <div class="project-dec">
                     <a class="portfolio-lightbox" data-gallery="myGallery" href="assets/img/portfolio/6.jpg">
@@ -635,7 +635,7 @@ include('posts/posts.php')
         <div class="row">
           <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="section-headline text-center">
-              <h2>Learn How To Make Quik And Huge Money With GMP</h2>
+              <h2>D-starite Technologies are committed in giving in the best and making sure client desires are met check out our pricing and reach out to us to get it done now</h2>
               <h2>Pricing Table </h2>
             </div>
           </div>
@@ -643,7 +643,7 @@ include('posts/posts.php')
         <div class="row">
           <div class="col-md-4 col-sm-4 col-xs-12">
             <div class="pri_table_list">
-              <h3>basic <br /> <span>$80 / month</span></h3>
+              <h3>basic <br /> <span>$260</span></h3>
               <ol>
                 <li class="check"><i class="bi bi-check"></i><span>Online system</span></li>
                 <li class="check"><i class="bi bi-x"></i><span>Full access</span></li>
@@ -654,13 +654,17 @@ include('posts/posts.php')
                 <li class="check"><i class="bi bi-check"></i><span>Payment online</span></li>
                 <li class="check"><i class="bi bi-x"></i><span>Cash back</span></li>
               </ol>
-              <button><a href="forms/sign_up.html"> sign up now</a></button>
+              <form>
+              <script src="https://js.paystack.co/v1/inline.js"></script>
+              <button type="button" onclick="payWithPaystack()"> Pay Now</button> 
+              </form>
+              <button><a href="forms/sign_up.php"> sign up now</a></button>
             </div>
           </div>
           <div class="col-md-4 col-sm-4 col-xs-12">
             <div class="pri_table_list active">
               <span class="saleon">top sale</span>
-              <h3>standard <br /> <span>$110 /6 month</span></h3>
+              <h3>standard <br /> <span>$400 </span></h3>
               <ol>
                 <li class="check"><i class="bi bi-check"></i><span>Online system</span></li>
                 <li class="check"><i class="bi bi-check"></i><span>Full access</span></li>
@@ -672,12 +676,16 @@ include('posts/posts.php')
                 <li class="check"><i class="bi bi-check"></i><span>Payment online</span></li>
                 <li class="cross"><i class="bi bi-x"></i><span>Cash back</span></li>
               </ol>
-              <button><a href="forms/sign_up.html"> sign up now</a></button>
+              <form>
+  <script src="https://js.paystack.co/v1/inline.js"></script>
+  <button type="button" onclick="payWithPaystack()"> Pay Now </button> 
+</form>
+              <button><a href="forms/sign_up.php"> sign up now</a></button>
             </div>
           </div>
           <div class="col-md-4 col-sm-4 col-xs-12">
             <div class="pri_table_list">
-              <h3>premium <br /> <span>$150 / ANNUAL</span></h3>
+              <h3>premium <br /> <span>$800 </span></h3>
               <ol>
                 <li class="check"><i class="bi bi-check"></i><span>Online system</span></li>
                 <li class="check"><i class="bi bi-check"></i><span>Full access</span></li>
@@ -689,7 +697,11 @@ include('posts/posts.php')
                 <li class="check"><i class="bi bi-check"></i><span>Payment online</span></li>
                 <li class="check"><i class="bi bi-check"></i><span>Cash back</span></li>
               </ol>
-              <button><a href="forms/sign_up.html"> sign up now</a></button>
+              <form>
+  <script src="https://js.paystack.co/v1/inline.js"></script>
+  <button type="button" onclick="payWithPaystack()"> Pay Now</button> 
+</form>
+              <button><a href="forms/sign_up.php"> sign up now</a></button>
             </div>
           </div>
         </div>
@@ -806,7 +818,7 @@ include('posts/posts.php')
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs=12">
             <div class="suscribe-text text-center">
               <h3>Welcome to our dStarite company</h3>
-              <a class="sus-btn" href="#">Get A quote</a>
+              <a class="sus-btn" href="https://www.linkedin.com/in/starttechnology">Get A quote</a>
             </div>
           </div>
         </div>
@@ -947,16 +959,16 @@ include('posts/posts.php')
                 <div class="footer-icons">
                   <ul>
                     <li>
-                      <a href="#"><i class="bi bi-facebook"></i></a>
+                      <a href="https://www.facebook.com/pope.paschalnwokeocha"><i class="bi bi-facebook"></i></a>
                     </li>
                     <li>
-                      <a href="#"><i class="bi bi-twitter"></i></a>
+                      <a href="https://www.twitter.com/paschalnwokeocha"><i class="bi bi-twitter"></i></a>
                     </li>
                     <li>
-                      <a href="#"><i class="bi bi-instagram"></i></a>
+                      <a href="https://www.instagram.com/paschalnwokeocha"><i class="bi bi-instagram"></i></a>
                     </li>
                     <li>
-                      <a href="#"><i class="bi bi-linkedin"></i></a>
+                      <a href="https://www.linkedin.com/in/starttechnology"><i class="bi bi-linkedin"></i></a>
                     </li>
                   </ul>
                 </div>
@@ -985,12 +997,12 @@ include('posts/posts.php')
               <div class="footer-head">
                 <h4>Instagram</h4>
                 <div class="flicker-img">
-                  <a href="#"><img src="assets/img/portfolio/1.jpg" alt=""></a>
-                  <a href="#"><img src="assets/img/portfolio/2.jpg" alt=""></a>
-                  <a href="#"><img src="assets/img/portfolio/3.jpg" alt=""></a>
-                  <a href="#"><img src="assets/img/portfolio/4.jpg" alt=""></a>
-                  <a href="#"><img src="assets/img/portfolio/5.jpg" alt=""></a>
-                  <a href="#"><img src="assets/img/portfolio/6.jpg" alt=""></a>
+                  <a href="https://www.instagram.com/paschalnwokeocha"><img src="assets/img/portfolio/1.jpg" alt=""></a>
+                  <a href="https://www.instagram.com/paschalnwokeocha"><img src="assets/img/portfolio/2.jpg" alt=""></a>
+                  <a href="https://www.instagram.com/paschalnwokeocha"><img src="assets/img/portfolio/3.jpg" alt=""></a>
+                  <a href="https://www.instagram.com/paschalnwokeocha"><img src="assets/img/portfolio/4.jpg" alt=""></a>
+                  <a href="https://www.instagram.com/paschalnwokeocha"><img src="assets/img/portfolio/5.jpg" alt=""></a>
+                  <a href="https://www.instagram.com/paschalnwokeocha"><img src="assets/img/portfolio/6.jpg" alt=""></a>
                 </div>
               </div>
             </div>
@@ -1018,7 +1030,7 @@ include('posts/posts.php')
   </footer><!-- End  Footer -->
 
   <!-- <div id="preloader"></div> -->
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#hero" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -1105,7 +1117,32 @@ return false;
   </script>
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-6223c684a3f77aec"></script>
-
+<script>
+  function payWithPaystack(){
+    var handler = PaystackPop.setup({
+      key: 'pk_test_278dd459f559b57fcd4e0353434dbafac37431f2',
+      email: 'Customers email',
+      amount: 10000,
+      ref: ''+Math.floor((Math.random() * 1000000000) + 1), // generates a pseudo-unique reference. Please replace with a reference you generated. Or remove the line entirely so our API will generate one for you
+      metadata: {
+         custom_fields: [
+            {
+                display_name: "Mobile Number",
+                variable_name: "mobile_number",
+                value: "+2348012345678"
+            }
+         ]
+      },
+      callback: function(response){
+          alert('success. transaction ref is ' + response.reference);
+      },
+      onClose: function(){
+          alert('window closed');
+      }
+    });
+    handler.openIframe();
+  }
+</script>
 </body>
 
 </html>
