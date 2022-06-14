@@ -876,9 +876,10 @@ include('posts/posts.php')
             </div>
           </div>
           <div class="row">
-
+            <div style="height: auto; width:fit-content; padding-bottom:12px;"><video src="assets/video/ecommerce.mp4" height="400" width="200" controls>Lets Get What we knows how to do best done for you!</video></br>
+            </div> 
             <!-- Start Google Map -->
-            <div class="col-md-6">
+            <div class="col-md-6" style="background-color:white ;">
               <!-- Start Map -->
               <div id='map' style ='width:400px; height:300px;'></div>
               <script>
