@@ -199,6 +199,15 @@ if (isset($_GET['post_id'])) {
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-X2S5S2KWV1"></script>
+  <script >
+  window.dataLayer=window.dataLayer || [];
+  function gtag(){
+    dataLayer.push(arguments);
+  }
+  gtag('js',new Date());
+  gtag('config','G-X2S5S2KWV1');
+  </script>
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9102079570959654"

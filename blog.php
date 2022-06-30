@@ -22,6 +22,16 @@ include('category/category.php');
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X2S5S2KWV1"></script>
+  <script >
+  window.dataLayer=window.dataLayer || [];
+  function gtag(){
+    dataLayer.push(arguments);
+  }
+  gtag('js',new Date());
+  gtag('config','G-X2S5S2KWV1');
+  </script>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
 
   <!-- Vendor CSS Files -->

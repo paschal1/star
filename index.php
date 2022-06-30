@@ -41,6 +41,15 @@ include('posts/posts.php')
   rel="stylesheet"
   href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
 />
+ <script async src="https://www.googletagmanager.com/gtag/js?id=G-X2S5S2KWV1"></script>
+  <script >
+  window.dataLayer=window.dataLayer || [];
+  function gtag(){
+    dataLayer.push(arguments);
+  }
+  gtag('js',new Date());
+  gtag('config','G-X2S5S2KWV1');
+  </script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9102079570959654"
      crossorigin="anonymous"></script>
 
